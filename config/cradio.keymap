@@ -60,7 +60,7 @@
             &kp TAB    &trans     &kp LBKT   &kp RBKT  &kp GRAVE       &kp LARW   &kp DARW   &kp UARW   &kp RARW   &kp SEMI
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ CAPS     │          │          │          │          │   │  -       │  =       │          │          │ \        │
-           &caps_word                                                 &kp MINUS  &kp EQUAL  &trans     &trans     &kp BLSH
+           &caps_word                                                 &kp MINUS  &kp EQUAL  &trans     &trans     &kp BSLH
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &kp ESC        &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
