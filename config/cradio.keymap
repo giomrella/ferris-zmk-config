@@ -63,7 +63,7 @@
         //│ CAPS     │ DEL      │          │          │          │   │  -       │  =       │          │          │ \        │
            &caps_word &kp DELETE  &trans     &trans     &trans         &kp MINUS  &kp EQUAL  &trans     &trans     &kp BSLH
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                             &trans     &kp ESC        &trans     &trans
+                                             &trans     &trans         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
