@@ -94,8 +94,8 @@
         //│          │          │          │          │PROFILE 1 │   │          │          │          │          │BACKSPACE │
             &trans     &trans     &trans     &trans   &bt BT_SEL 1     &trans     &trans     &trans     &trans       BSPC
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│  RESET   │BOOTLOADER│          │ CLEAR BT │PROFILE 2 │   │          │          │          │BOOTLOADER│  RESET   │
-             &reset  &bootloader  &trans    &bt BT_CLR &bt BT_SEL 2    &trans     &trans     &trans    &bootloader   &reset
+        //│  RESET   │BOOTLOADER│          │ CLEAR BT │PROFILE 2 │   │          │          │          │BOOTLOADER│   RESET  │
+           &sys_reset &bootloader  &trans    &bt BT_CLR &bt BT_SEL 2    &trans     &trans     &trans   &bootloader &sys_reset
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &trans         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
