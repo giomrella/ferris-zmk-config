@@ -88,8 +88,8 @@
         tri_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│          │          │          │          │PROFILE 0 │   │          │          │          │          │  PRSCRN  │
-            &trans     &trans     &trans     &trans    &bt BT_SEL 0    &trans     &trans     &trans     &trans      PRSCRN
+        //│          │          │          │          │PROFILE 0 │   │          │          │          │          │  PSCRN   │
+            &trans     &trans     &trans     &trans    &bt BT_SEL 0    &trans     &trans     &trans     &trans      PSCRN
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │PROFILE 1 │   │          │          │          │          │BACKSPACE │
             &trans     &trans     &trans     &trans   &bt BT_SEL 1     &trans     &trans     &trans     &trans       BSPC
